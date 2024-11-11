@@ -9,6 +9,10 @@ import { CenterDetail } from './pages/CenterDetail/CenterDetail';
 import { ErrorPage } from './pages/ErrorPage/ErrorPage';
 import './global.css';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 const router = createBrowserRouter([
   {
     path: '/',

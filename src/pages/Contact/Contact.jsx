@@ -1,7 +1,7 @@
 export const Contact = () => {
     return (
     <div>
-<header>Kontakt</header>
+<header className="smallheader">Kontakt</header>
 <p>
 O nás
 

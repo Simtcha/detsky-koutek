@@ -1,14 +1,16 @@
 import './ErrorPage.css';
-import {Link} from 'react-router-dom';
+import ColorSchemesExample from '../../components/navbar';
 
 export const ErrorPage = () => {
     return (
-    <div>
-<header>ERROR 404</header>
-<div>Tady není nic k vidění </div>
-<div>Radši se vrať </div>
-<Link to="/">Domů</Link>
-    </div>
+<div className="error-page-container">
+    <ColorSchemesExample />
+  <div className="error-content">
+    <header className="error-header">ERROR 404</header>
+    <div>Tady není bohužel nic k vidění, teda kromě koťátka :) </div>
+    <div className="kotatko"></div>
+   </div>
+</div>
      )
 
 }

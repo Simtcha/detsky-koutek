@@ -1,7 +1,7 @@
 export const About = () => {
     return (
     <div>
-<header>O nás</header>
+<header className="smallheader">O nás</header>
 <p>
 Jsme tým mladých nadšenců do vzdělávání a zábavy pro děti. 
 Naše poslání je vytvářet podnětné a zábavné aktivity pro děti, které podporují jejich rozvoj a učení nových dovedností.

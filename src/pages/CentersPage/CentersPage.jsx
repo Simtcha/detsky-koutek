@@ -17,15 +17,16 @@ export const CentersPage = () => {
 
   return (
     <div className="centers-page-container">
-      <header>Pobočky</header>
+      <header className="smallheader">Pobočky</header>
       <br></br>
       <nav className="links">
         {centers.map((center) => (
           <Link key={center.id} to={`/pobocky/${center.id}`}>
-            {center.name} - {center.address}
+            {center.name} - {center.address} <br/>
           </Link>
         ))}
       </nav>
+      <br/>
       <Outlet />
     </div>
   )

@@ -1,5 +1,6 @@
 import './style.css';
 import {Link, Outlet} from 'react-router-dom';
+import ColorSchemesExample from '../../components/navbar';
 
 export const HomePage = () => {
   return (
@@ -9,14 +10,8 @@ export const HomePage = () => {
         <h1>Dětský Koutek</h1>
       </header>
       <main>
-      
-        <nav>
-          <Link to="/About">About</Link>
-          <span>|</span>
-          <Link to="/Contact">Kontakt</Link>
-          <span>|</span>
-          <Link to="/pobocky">Pobočky</Link>
-        </nav>
+      <ColorSchemesExample />
+        
         <Outlet></Outlet>
       </main>
       <footer>
